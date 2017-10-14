@@ -1,0 +1,72 @@
+/***** start hreader **/
+body{
+
+}
+header {
+    background: url(../img/contact/01.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header .fogheader {
+    background: rgba(0,0,0,0.6);
+}
+header .contheader h1 {
+    color: #80DEEA;
+    font-size: 80px;
+    margin-top: 220px;
+    padding: 30px 120px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    display: inline-block;
+    margin-bottom: 150px;
+    font-family: 'Slabo 27px', serif;
+}
+header .contheader h1 span {
+    color: #dc6702;
+}
+
+/***** end hreader **/
+
+/* start content */
+
+section{
+    
+}
+section .row {
+    margin-top: 100px;
+}
+section .cont{
+    margin-bottom: 100px;
+}
+section .cont img{
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border: 1px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+
+}
+section .cont p{
+    display: inline-block;
+    color: #c95d39;
+    font-family: 'Merriweather', serif;
+}
+section .cont p span{
+    color: #20255e;
+}
+
+/* end content */
+
+/*** start media query ***/
+
+@media (max-width: 768px){
+    header .contheader h1{
+        padding: 30px 50px;
+        font-size: 50px;
+    }
+}
+
+/*** end media query ***/

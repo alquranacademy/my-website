@@ -1,0 +1,376 @@
+/***** start hreader **/
+body{
+
+}
+
+/* start navbar */
+
+header .navbar-default {
+    background-color: rgba(245,245,245,0.0);
+    border-color: rgba(245,245,245,0.0);
+    background: #fff;
+    height: 95px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee;
+}
+.navbar-brand .logo {
+    width: 115px;
+    margin-top: -15px;
+}
+header .navbar-default ul li{
+    font-size: 20px;
+}
+header .navbar-default .navbar-nav > li > a{
+    color: black;
+    border: 1px;
+    border-radius: 2px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    line-height: 47.5px;
+    font-size: 17px;
+}
+header .navbar-default .navbar-nav > .active > a:focus{
+    background: rgba(0,0,0,0.0);
+    color: #80DEEA;
+}
+header .navbar-default .navbar-nav > .active > a{
+    background-color: rgba(245,245,245,0.0);
+    color: #80DEEA;
+    border-bottom: 1.5px solid #80DEEA;
+    padding-bottom: 0px;
+}
+header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
+    color: #80DEEA;
+    background-color: rgba(245,245,245,0.0);
+}
+header .navbar-default .navbar-nav > li > a:hover{
+    color: #80DEEA;
+}
+header .navbar-default .navbar-nav > li > a:focus{
+    color: black;
+}
+/* header .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover , */
+.navbar-default .navbar-nav > .open > a:focus{
+    background-color: rgba(245,245,245,0.0);
+    color: black;
+}
+header .navbar-default .navbar-nav .dropdown-menu {
+    background-color: #061b25;
+    margin-top: 16px;
+    right: inherit;
+    width: 230px;
+}
+header .navbar-default .dropdown-menu > li > a{
+    color: white;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+header .navbar-default .dropdown-menu > li > a:focus{
+    color: #000;
+}
+header .navbar-default .dropdown-menu > li > a:hover{
+    background-color: white;
+    color: #061b25;
+    padding-left: 30px;
+}
+
+/* end navbar */ 
+
+/* start collapse */
+
+.carousel {
+    top: 95px;
+    margin-bottom: 95px;
+}
+.carousel-inner > .item > a > img{
+    width: 100%;
+    height: 720px;
+}
+.carousel-caption{
+    margin-bottom: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px 60px 60px 60px;
+}
+.carousel-caption h3{
+    font-size: 40px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    padding: 10px 20px 15px 20px;
+    text-shadow: 2px 2px 5px;
+}
+.carousel-caption p{
+    color: #ddd;
+}
+.carousel-indicators li{
+    padding: 8px;
+    border: 1px solid #1f2663;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    padding: 9px;
+    background: #1f2661;
+}
+
+/* end collapse */
+
+/****** end header **/
+
+/* start our courses */
+
+.ourcourses{
+    background: #eee;
+}
+.ourcourses h2{
+    display: inline-block;
+    margin-top: 50px;
+    color: #1c8a98;
+    border-bottom: 3px solid #ff7600;
+    padding: 20px;
+}
+.ourcourses .row{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.ourcourses .row div .cont{
+    border: 1px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    border: 1px solid #039BE5;
+    height: 530px;
+    background: #fff;
+}
+.ourcourses .row div .cont:hover{
+    box-shadow: 0px 0px 10px #1d9baf;
+}
+.ourcourses .row div .cont:hover .img{
+    opacity: .6;
+}
+.ourcourses .row div .cont:hover .img img{
+    transform: rotate(10deg);
+    width: 120%;
+    height: 290px;
+    margin-top: -28px;
+    margin-left: -20px
+}
+.ourcourses .row div .cont .img{
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+.ourcourses .row div .cont .img img{
+    width: 100%;
+    height: 230px;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+.ourcourses .row div .cont h3{
+    color: #039BE5;
+    font-size: 25px;
+}
+.ourcourses .row div .cont p{
+    color: #78909C;
+    font-size: 20px;
+    margin-bottom:30px;
+    padding: 5px;
+}
+.ourcourses .row div .cont a{
+    color: #fff;
+    background: #4cbcea;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid #4cbcea;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    background: #34ced9;
+    background-image: -webkit-linear-gradient(top, #34ced9, #127080);
+    background-image: -moz-linear-gradient(top, #34ced9, #127080);
+    background-image: -ms-linear-gradient(top, #34ced9, #127080);
+    background-image: -o-linear-gradient(top, #34ced9, #127080);
+    background-image: linear-gradient(to bottom, #34ced9, #127080);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+}
+.ourcourses .row div .cont a:focus{
+    color: #fff;
+    background: #4cbcea;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid #4cbcea;
+    border-radius: 2px;
+    text-decoration: none;
+    background: #34ced9;
+    background-image: -webkit-linear-gradient(top, #34ced9, #127080);
+    background-image: -moz-linear-gradient(top, #34ced9, #127080);
+    background-image: -ms-linear-gradient(top, #34ced9, #127080);
+    background-image: -o-linear-gradient(top, #34ced9, #127080);
+    background-image: linear-gradient(to bottom, #34ced9, #127080);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+}
+.ourcourses .row div .cont a:hover{
+    color: #f16909;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid #f16909;
+    border-radius: 3px;
+}
+/* end our courses */
+
+/* start why choose us? */
+.choose {
+}
+.choose h2 {
+    display: inline-block;
+    margin-top: 50px;
+    color: #1c8a98;
+    border-bottom: 3px solid #ff7600;
+    padding: 20px;
+}
+.choose .cont{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.choose .cont i{
+    font-size: 35px;
+    color: #ff7600;
+    margin-bottom: 20px;
+    display: block;
+}
+.choose .cont p{
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 500px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* end why choose us? */
+
+/* start footer */
+
+footer{
+    background: #061b25;
+    overflow: hidden;
+}
+footer .row{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+footer .row div h3{
+    color: white;
+}
+footer .row div ul li {
+    
+}
+footer .row div ul li a{
+    color: #03A9F4;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+footer .row div ul li a:focus{
+    text-decoration: none;
+    color: #03A9F4;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+}
+footer .row div ul li a:hover{
+    text-decoration: none;
+    color:#1565C0; 
+}
+footer .row div ul li a i{
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+footer .copyright{
+    padding: 30px 30px 18px 30px;
+    background: #04151d;
+    color: #bbb;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* end footer */
+
+
+/*** start media query ***/
+
+@media (max-width: 768px){
+    .navbar-default .navbar-toggle{
+        margin-top: 30px;
+    }
+    .navbar-default .navbar-toggle:focus{
+        background: #fff;
+    }
+    .navbar-default .navbar-collapse{
+        background-color: white;
+        margin-top: 22px;
+        border: 1px solid #eee;
+    }
+    header .navbar-default .navbar-nav > .active > a{
+        display: inline-block;
+    }
+    header .navbar-default .navbar-nav .dropdown-menu{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        text-align: center;
+        color: white;
+    }
+    
+    .carousel {
+    }
+    .carousel-control{
+        display: none;
+    }
+    .carousel-caption{
+        margin-bottom: 55px;
+        padding: 10px;
+    }
+    .carousel-inner > .item > a > img{
+        height: 400px;
+    }
+        .carousel-caption h3{
+            font-size: 17px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+
+}
+
+/*** end media query ***/
