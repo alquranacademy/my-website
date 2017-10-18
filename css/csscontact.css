@@ -32,13 +32,25 @@ header .contheader h1 span {
 /* start content */
 
 section{
-    
+    background-image: linear-gradient(to left, #47d7e0, #f17c71);
 }
-section .row {
-    margin-top: 100px;
+section .content{
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    padding: 50px 30px;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin-bottom: 50px;
+}
+section .content h2{
+}
+section .content hr{
+    width: 4%;
+    border-top: 2px solid #fff;
+    margin-bottom: 50px;
 }
 section .cont{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 section .cont img{
     margin-right: 20px;
@@ -53,9 +65,27 @@ section .cont p{
     display: inline-block;
     color: #c95d39;
     font-family: 'Merriweather', serif;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 section .cont p span{
     color: #20255e;
+}
+section .cont:hover{
+    background: #000;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+}
+section .cont:hover p{
+    color: #ffa500;
+}
+section .cont:hover span{
+    color: #fff;
 }
 
 /* end content */

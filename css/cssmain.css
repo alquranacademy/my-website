@@ -9,16 +9,23 @@ header .navbar-default {
     background-color: rgba(245,245,245,0.0);
     border-color: rgba(245,245,245,0.0);
     background: #fff;
-    height: 95px;
+    height: 79px;
     position: fixed;
     width: 100%;
     z-index: 99999;
     border-radius: 0px;
     border-bottom: 1px solid #eee;
+    box-shadow: 0px 0px 10px 1px grey;
 }
 .navbar-brand .logo {
-    width: 115px;
-    margin-top: -15px;
+    width: 80px;
+    display: inline;
+}
+.navbar-brand p{
+    display: inline;
+    margin-left: 5px;
+    color: #ffa500;
+    font-weight: bold;
 }
 header .navbar-default ul li{
     font-size: 20px;
@@ -32,21 +39,24 @@ header .navbar-default .navbar-nav > li > a{
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
     line-height: 47.5px;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
 }
 header .navbar-default .navbar-nav > .active > a:focus{
     background: rgba(0,0,0,0.0);
     color: #80DEEA;
 }
 header .navbar-default .navbar-nav > .active > a{
-    background-color: rgba(245,245,245,0.0);
-    color: #80DEEA;
-    border-bottom: 1.5px solid #80DEEA;
+    border-bottom: 3px solid #80DEEA;
     padding-bottom: 0px;
+    color: #80DEEA;
+    padding-top: 0px;
+    margin-top: 15px;
+    background-color: rgba(117, 224, 255, 0.2);
 }
 header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
     color: #80DEEA;
-    background-color: rgba(245,245,245,0.0);
+    background-color: rgba(117, 224, 255, 0.2);
 }
 header .navbar-default .navbar-nav > li > a:hover{
     color: #80DEEA;
@@ -61,7 +71,6 @@ header .navbar-default .navbar-nav > li > a:focus{
 }
 header .navbar-default .navbar-nav .dropdown-menu {
     background-color: #061b25;
-    margin-top: 16px;
     right: inherit;
     width: 230px;
 }
@@ -73,7 +82,7 @@ header .navbar-default .dropdown-menu > li > a{
     transition: 0.3s ease-in-out;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size:17px;
 }
 header .navbar-default .dropdown-menu > li > a:focus{
     color: #000;
@@ -89,8 +98,9 @@ header .navbar-default .dropdown-menu > li > a:hover{
 /* start collapse */
 
 .carousel {
-    top: 95px;
+    top: 80px;
     margin-bottom: 95px;
+    height: 700px;
 }
 .carousel-inner > .item > a > img{
     width: 100%;
@@ -106,7 +116,6 @@ header .navbar-default .dropdown-menu > li > a:hover{
     border-bottom: 3px solid #fff;
     display: inline-block;
     padding: 10px 20px 15px 20px;
-    text-shadow: 2px 2px 5px;
 }
 .carousel-caption p{
     color: #ddd;
@@ -120,6 +129,10 @@ header .navbar-default .dropdown-menu > li > a:hover{
     padding: 9px;
     background: #1f2661;
 }
+.carousel-control{
+    height: 700ppx;
+    top: 80px;
+}
 
 /* end collapse */
 
@@ -128,11 +141,15 @@ header .navbar-default .dropdown-menu > li > a:hover{
 /* start our courses */
 
 .ourcourses{
-    background: #eee;
+    background-image: linear-gradient(to left, #47d7e0, #f17c71);}
+.ourcourses .content{
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px 0px grey;
 }
 .ourcourses h2{
     display: inline-block;
-    margin-top: 50px;
     color: #1c8a98;
     border-bottom: 3px solid #ff7600;
     padding: 20px;
@@ -153,12 +170,17 @@ header .navbar-default .dropdown-menu > li > a:hover{
     border: 1px solid #039BE5;
     height: 530px;
     background: #fff;
+    background:-ms-linear-gradient(135deg, rgb(0, 0, 0) 0.00%, rgb(90, 90, 90) 28.78%, rgb(17, 19, 21) 61.06%, rgb(33, 43, 51) 61.06%, rgb(0, 70, 67) 99.33% );
+    background:-webkit-linear-gradient(135deg, rgb(0, 0, 0) 0.00%, rgb(90, 90, 90) 28.78%, rgb(17, 19, 21) 61.06%, rgb(33, 43, 51) 61.06%, rgb(0, 70, 67) 99.33% );
+    background:-moz-linear-gradient(135deg, rgb(0, 0, 0) 0.00%, rgb(90, 90, 90) 28.78%, rgb(17, 19, 21) 61.06%, rgb(33, 43, 51) 61.06%, rgb(0, 70, 67) 99.33% );
+    background:-o-linear-gradient(135deg, rgb(0, 0, 0) 0.00%, rgb(90, 90, 90) 28.78%, rgb(17, 19, 21) 61.06%, rgb(33, 43, 51) 61.06%, rgb(0, 70, 67) 99.33% );
+    background:linear-gradient(135deg, rgb(0, 0, 0) 0.00%, rgb(90, 90, 90) 28.78%, rgb(17, 19, 21) 61.06%, rgb(33, 43, 51) 61.06%, rgb(0, 70, 67) 99.33% );
 }
 .ourcourses .row div .cont:hover{
     box-shadow: 0px 0px 10px #1d9baf;
 }
 .ourcourses .row div .cont:hover .img{
-    opacity: .6;
+    opacity: 0.8;
 }
 .ourcourses .row div .cont:hover .img img{
     transform: rotate(10deg);
@@ -189,8 +211,8 @@ header .navbar-default .dropdown-menu > li > a:hover{
     font-size: 25px;
 }
 .ourcourses .row div .cont p{
-    color: #78909C;
-    font-size: 20px;
+    color: #ddd;
+    font-size: 16px;
     margin-bottom:30px;
     padding: 5px;
 }
@@ -243,10 +265,17 @@ header .navbar-default .dropdown-menu > li > a:hover{
 
 /* start why choose us? */
 .choose {
+        background-image: linear-gradient(to left, #47d7e0, #f17c71);
+}
+.choose .content{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-bottom: 50px;
 }
 .choose h2 {
     display: inline-block;
-    margin-top: 50px;
     color: #1c8a98;
     border-bottom: 3px solid #ff7600;
     padding: 20px;
@@ -254,14 +283,23 @@ header .navbar-default .dropdown-menu > li > a:hover{
 .choose .cont{
     margin-bottom: 20px;
     margin-top: 20px;
-    padding: 20px;
     overflow: hidden;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    padding: 30px 50px;
+    min-height: 350px;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .choose .cont i{
     font-size: 35px;
     color: #ff7600;
     margin-bottom: 20px;
     display: block;
+    margin: auto;
+    border-radius: 50%;
 }
 .choose .cont p{
     margin-left: 20px;
@@ -269,6 +307,23 @@ header .navbar-default .dropdown-menu > li > a:hover{
     max-width: 500px;
     display: inline-block;
     overflow: hidden;
+    color: #eee;
+}
+.choose .cont hr{
+    width: 20%;
+    border-top: 1.5px solid #ddd;
+}
+.choose .cont:hover{
+    background:#fff;
+}
+.choose .cont:hover i{
+    background: rgba(0,0,0,0.8)
+}
+.choose .cont:hover hr{
+    color: #666;
+}
+.choose .cont:hover p{
+    color: #333;
 }
 
 /* end why choose us? */
@@ -334,6 +389,9 @@ footer .copyright{
     }
     .navbar-default .navbar-toggle:focus{
         background: #fff;
+    }
+    .navbar-brand p{
+        font-size: 12px;
     }
     .navbar-default .navbar-collapse{
         background-color: white;

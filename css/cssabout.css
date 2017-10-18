@@ -61,15 +61,15 @@ header .contheader h1 span {
     background-size: cover;
 }
 .classroom .fog{
-    background: rgba(255,255,255,0.6);
+    background: rgba(0,0,0,0.7);
     width: 100%;
     height: 100%;
 }
 .classroom h2{
     display: inline-block;
     margin-top: 20px;
-    color: #1c8a98;
-    border-bottom: 3px solid #202660;
+    color: #dc6702;
+    border-bottom: 3px solid #999;
     padding: 20px;
 }
 .classroom .cont{
@@ -81,7 +81,7 @@ header .contheader h1 span {
 .classroom .cont p{
     letter-spacing: .5px;
     line-height: 40px;
-    color: #dc6702;
+    color: #fff;
 
 }
 
