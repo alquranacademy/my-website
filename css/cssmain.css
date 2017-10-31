@@ -430,5 +430,20 @@ footer .copyright{
     }
 
 }
+@media (max-width: 400px){
 
+    .navbar-brand p{
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 290px){
+    
+    .navbar-brand p{
+        display: none;        
+    }
+    
+}
+        
 /*** end media query ***/
